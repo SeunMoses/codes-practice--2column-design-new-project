@@ -1,0 +1,131 @@
+*{
+  margin: 0px;
+}
+body{
+  font-family: 'Inter', sans-serif;
+}
+
+.firstsection{
+  /* border: 3px solid tomato; */
+  height: 460px;
+  display: flex;
+  
+}
+.firstsection-left{
+  /* border: 3px solid green; */
+  height: 100%;
+  width: 50%;
+  padding-left: 20px;
+  /* background: grey; */
+}
+h4{
+  padding: 20px;
+}
+.line{
+  border: 16px solid tomato;
+  width: 25%;
+  margin-top: 20px;
+}
+span{
+  color: tomato;
+}
+p{
+  margin-top: 20px;
+}
+.firstsection-right{
+  /* border: 3px solid green; */
+  height: 100%;
+  width: 50%;
+  background: url(./images/image1.jpg);
+  background-size: cover;
+  background-position: bottom;
+}
+.linkholder{
+  display: flex;
+  justify-content: space-evenly;
+  color: white;
+  padding-top: 20px;
+}
+.secondsection{
+  /* border: 3px solid black; */
+  height: 460px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+}
+.secondsection-left{
+  height: 400px;
+  width: 310px;
+  margin-right: 10px;
+  background: grey; 
+}
+.secondsection-left p {
+  margin: 30px;
+}
+.secondsection-right{
+  height: 460px;
+  width: 340px;
+  padding-left: 10px;
+  /* border:3px solid grey; */
+}
+img{
+  height: 100%;
+  width: 100%;
+}
+.thirdsection{
+  display: flex;
+  /* border: 3px solid tomato; */
+  justify-content: center;
+  padding: 20px;
+  /* align-items: center; */
+}
+.thirdsection-left{
+  height: 460px;
+  width: 340px;
+  /* border: 3px solid tomato; */
+}
+.thirdsection-right{
+  height: 460px;
+  width: 340px;
+background: tomato;
+}
+img{
+  height: 100%;
+  width: 100%;
+}
+.secondsection-left p {
+  margin: 30px;
+} p {
+  margin: 30px;
+}
+.footer{
+  background: tomato;
+  padding: 20px 0px;
+  /* width: 310PX; */
+  display: flex;
+  justify-content: space-evenly;
+  color: white;
+  
+}
+.fontconnector{
+  /* border: 3px solid black; */
+  height: 50px;
+  width: 200px;
+  justify-content: space-evenly;
+  
+  /* padding: 20px; */
+}
+/* .div1{
+  background: grey;
+  width: 100%;
+  height: 100%;
+}
+.div2{
+background: tomato;
+width: 100%;
+  height: 100%;
+}
+section{
+  display: inline-block;
+} */
